@@ -1,0 +1,84 @@
+body {
+font-family:tahoma;
+background-color:#C1975B;
+background-image:url('./images/bg2.png');
+font-size:12px;
+}
+
+.wrapper {
+width:80%;
+margin:auto;
+padding:10px;
+background-color:#FFE5BF;
+border:solid #874E00 2px;
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6);
+}
+
+.banner {
+position:relative;
+grid-column: 1 / span 2;
+border:solid #874E00 2px;
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6) inset;
+}
+
+.bannerimage {
+background-image:url('http://markyjoe.com/images/banner.jpg');
+background-size:100%;
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6) inset;
+}
+
+.webname {
+position:absolute;
+top:8px;
+left:16px;
+font-size:32px;
+text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black, 3px 3px 2px black;
+color:white;
+font-weight:900;
+}
+
+.wrapper {
+display:grid;
+grid-gap:10px;
+grid-template-columns: 75% 23%;
+}
+
+.content {
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6) inset;
+background-color:white;
+padding:5px;
+border:solid #874E00 2px;
+text-spacing:2px
+}
+
+.navigator {
+box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.6) inset;
+background-color:white;
+padding:5px;
+border:solid #874E00 2px;
+}
+
+.footer {
+grid-column: 1 / span 2;
+padding:10px;
+}
+
+.copyright {
+grid-column: 1 / span 2;
+color:white;
+text-shadow: 1px 1px 0px black, -1px -1px 0px black, -1px 1px 0px black, 1px -1px 0px black;
+}
+
+.navlist {
+font-weight:900;
+}
+
+.navcontent {
+padding-left:15px;
+}
+
+#BlackBox
+{
+	border:solid black 1px;
+	background-color:#FFFF9A;
+}
